@@ -1,0 +1,96 @@
+- name: Supplier
+  description: Manage suppliers.
+  route: Supplier
+  icon: fas fa-truck
+- name: Product
+  description: Manage products.
+  route: Product
+  icon: fas fa-cube
+  items:
+    - name: Product
+      description: Manage product
+      route: Product
+      icon: fas fa-cubes
+    - name: Product batch
+      description: Manage product batch
+      route: ProductBatch
+      icon: fas fa-object-group
+    - name: Pricelist
+      description: Manage price list
+      route: Pricelist
+      icon: fas fa-money-bill-wave
+- name: Logistics
+  description: Manage logistics.
+  route: Logistics
+  icon: fas fa-truck-fast
+  items:
+    - name: Requisition request
+      description: Manage product
+      route: Requisition
+      icon: fas fa-clipboard
+    - name: Purchase Order
+      description: Manage purchase orders.
+      route: PurchaseOrder
+      icon: fas fa-cart-shopping
+    - name: Goods Receipt
+      description: Manage goods receipt activities.
+      route: GoodsReceipt
+      icon: fas fa-truck
+    - name: Goods Return
+      description: Manage goods return activities.
+      route: GoodsReturn
+      icon: fas fa-rotate-left
+    - name: Stock Adjustment
+      description: Manage stock adjustments.
+      route: StockAdjustment
+      icon: fas fa-scale-balanced
+    - name: Stock Transfer
+      description: Manage stock transfers.
+      route: StockTransfer
+      icon: fas fa-arrow-right-arrow-left
+    - name: Stock Take
+      description: Manage stock takes.
+      route: StockTake
+      icon: fas fa-clipboard-list
+- name: Inventory
+  description: Manage inventory.
+  route: InventorySettings
+  icon: fas fa-shapes
+  items:
+    - name: Inventory settings
+      description: Manage inventory settings
+      route: InventorySettings
+      icon: fas fa-gears
+    - name: Organization stock balance
+      description: Manage organization stock balance
+      route: OrganisationStockBalance
+      icon: fas fa-scale-balanced
+- name: Opening balance
+  description: Manage opening balance.
+  route: OpeningBalance
+  icon: fas fa-book-open
+- name: Product settings
+  description: Manage product settings
+  route: Location
+  icon: fas fa-screwdriver-wrench
+  items:
+    - name: Location
+      description: Manage location
+      route: Location
+      icon: fas fa-location-dot
+    - name: Product categories
+      description: Manage product categories.
+      route: ProductCategory
+      icon: fas fa-table-list
+    - name: Classifications
+      description: Manage product classifications.
+      route: ProductClassification
+      icon: fas fa-tags
+    - name: Manufacture
+      description: Manage product manufacture details.
+      route: ProductManufacture
+      icon: fas fa-industry
+    - name: Unit of Measure (UOM)
+      description: Manage units of measure.
+      route: UOM
+      icon: fas fa-scale-balanced
